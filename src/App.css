@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+/* html {
+  scroll-behavior: smooth;
+} */
+
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+
+.bg {
+  background-color: #eaf1f6 !important;
+}
+.bg-second {
+  background-color: #98efc9 !important;
+}
+.toggle-icon svg {
+  padding: 5px;
+  font-size: 3rem;
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+}
+.sidebar {
+  z-index: 123;
+}
+.card {
+  border: none !important;
+}
+/* News Card */
+.rounded-sm {
+  border-radius: 15px !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* Modal */
+.modal.show .modal-dialog {
+  max-width: 1000px;
+}
+.modal-body {
+  height: 585px;
+}
+
+/* width */
+.modal-body::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+/* Track */
+.modal-body::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+
+/* Handle */
+.modal-body::-webkit-scrollbar-thumb {
+  background: #888 !important;
+}
+
+/* Handle on hover */
+.modal-body::-webkit-scrollbar-thumb:hover {
+  background: #555 !important;
+}
+
+/* Paginate */
+.pagination {
+  background-color: transparent !important;
+  border-radius: 50%;
+}
+.page-item .page-link {
+  background-color: #b8b8b8 !important;
+  color: #fff !important;
+  font-size: 1rem;
+  margin: 10px;
+  text-align: center !important;
+  border-radius: 50%;
+}
+.pagination > li.active > a {
+  background-color: #fff !important;
+  color: black !important;
+  border-radius: 50px;
+  border: 0;
+}
+.pagination > li.disabled > a {
+  color: rgb(0, 0, 0) !important;
+  background-color: #ececec !important;
+  border-radius: 0;
+}
+
+/* Form */
+.form{
+  font-size: 12px!important;
+}
+.form-label{
+  font-size: 12px!important;
+}
+.form-control{
+  font-size: 12px!important;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+  border: 0
+}
