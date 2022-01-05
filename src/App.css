@@ -44,25 +44,6 @@ body {
   height: 585px;
 }
 
-/* width */
-.modal-body::-webkit-scrollbar {
-  width: 10px !important;
-}
-
-/* Track */
-.modal-body::-webkit-scrollbar-track {
-  background: #f1f1f1 !important;
-}
-
-/* Handle */
-.modal-body::-webkit-scrollbar-thumb {
-  background: #888 !important;
-}
-
-/* Handle on hover */
-.modal-body::-webkit-scrollbar-thumb:hover {
-  background: #555 !important;
-}
 
 /* Paginate */
 .pagination {
